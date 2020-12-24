@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom';
 
 import '../menu-item/menu-item.style.scss';
 
-const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) =>(    //destructured item is passsed, history and match is builtin variable
+const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) =>(    //destructured item is passsed, history and match are builtin variables
     <div className= {`${size} menu-item`}  
     onClick={ ()=> history.push(`${match.url}${linkUrl}`)} >
 

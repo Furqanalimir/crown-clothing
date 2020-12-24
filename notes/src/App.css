@@ -1,0 +1,35 @@
+.HomePage {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.HomePage input {
+  -webkit-appearance: none;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  padding: 10px;
+  width: 250px;
+  margin: 50px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.Title {
+  border-bottom: 5px solid rgb(192, 197, 46);
+  margin-top: 0px;
+  padding: 10px;
+  font-size: 5rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(226, 215, 15);
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
