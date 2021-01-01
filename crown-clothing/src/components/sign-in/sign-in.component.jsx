@@ -39,8 +39,7 @@ class SignIn extends Component {
                 <FormInput type="email" name="email" 
                 handleChange={this.handleChange} 
                 value={this.state.email} required 
-                label='email'
-                placeholder='email'                    
+                label='email'                   
                 />
                 
                 <FormInput type="password" 
@@ -48,7 +47,6 @@ class SignIn extends Component {
                 value={this.state.password} 
                 handleChange={this.handleChange}    
                 label='password'
-                placeholder='password'
                 required />
                 <div className="buttons">
 
